@@ -1,0 +1,281 @@
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(49, 49, 49) !important;
+}
+header {
+  overflow: hidden;
+}
+.header-img {
+  background-image: url("img/2182418.jpg");
+  height: 520px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  transition: transform 5s, filter 3s ease-in-out;
+  transform-origin: 50% 65%;
+  transition: 5s;
+}
+.header-img:hover {
+  transform-origin: 50% 50%;
+  transition: transform 5s, filter 3s ease-in-out;
+  transform: scale(1.1);
+}
+.sec-1 {
+  overflow: hidden;
+}
+.col-fig-1 {
+  background-image: url("img/andras-vas-mKrPowm00s8-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 600px;
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+  transition: 5s;
+}
+.col-fig-1:hover {
+  transition: transform 5s, filter 3s ease-in-out;
+  transform-origin: 50% 65%;
+  transform: scale(1.1);
+  transition: 1s;
+}
+.col-fig-2 {
+  background-image: url("img/86608.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 600px;
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+  transition: 5s;
+}
+.col-fig-2:hover {
+  transition: transform 5s, filter 3s ease-in-out;
+  transform-origin: 50% 65%;
+  transform: scale(1.1);
+  transition: 1s;
+}
+.col-fig-1 > .fig-1-txt > h1 {
+  transition: 1s;
+}
+.col-fig-2 > .fig-2-txt > h1 {
+  color: #ffc107;
+  transition: 1s;
+}
+.col-fig-1:hover > .fig-1-txt > h1 {
+  color: #ffc107 !important;
+  background-color: rgba(0, 0, 0, 0.24);
+  transition: 1s;
+  padding: 10px;
+}
+.col-fig-2:hover > .fig-2-txt > h1 {
+  color: whitesmoke !important;
+  background-color: rgba(0, 0, 0, 0.24);
+  transition: 1s;
+  padding: 10px;
+  border-radius: 35px;
+  transition: 1s;
+}
+.col-fig-1:hover > .fig-1-txt > .fig-1-btn {
+  margin-left: 20px;
+}
+.col-fig-1:hover > .fig-1-txt {
+  margin-left: 40px;
+}
+
+.col-fig-1 > .fig-1-txt {
+  margin: 0 20px;
+  font-size: 15px;
+  transition: 1s;
+}
+.col-fig-2 > .fig-2-txt {
+  margin: 25% 20px;
+  font-size: 15px;
+  transition: 1s;
+}
+
+.fig-1-btn {
+  color: rgb(52, 110, 112);
+  border: none;
+  padding: 0 10px;
+  transition: 0.3s;
+  background-color: whitesmoke;
+  font-weight: 500;
+}
+
+.fig-1-btn:hover {
+  color: whitesmoke;
+  background-color: rgb(52, 110, 112);
+}
+.fig-2-btn {
+  color: rgb(52, 110, 112);
+  border: none;
+  transition: 0.3s;
+  background-color: whitesmoke;
+  font-weight: 500;
+}
+
+.fig-2-btn:hover {
+  color: whitesmoke;
+  background-color: rgb(52, 110, 112);
+}
+
+.sec-3-col2{
+    display: flex;
+    justify-content: center;
+}
+.c-vid {
+  background-color: rgb(0, 0, 0) !important;
+  height: 227px;
+}
+
+.card-of {
+  overflow: hidden;
+}
+.card-of:hover > .c-img1,
+.card-of:hover > .c-img2,
+.card-of:hover > .c-img3,
+.card-of:hover > .c-img4,
+.card-of:hover > .c-img5,
+.card-of:hover > .c-img6,
+.card-of:hover > .c-img7,
+.card-of:hover > .c-img8,
+.card-of:hover > .c-img9,
+.card-of:hover > .c-img10,
+.card-of:hover > .c-img11 {
+  transform: scale(1.1);
+  transition: 1s;
+  overflow: hidden;
+}
+.c-vid h5,
+.c-img1 h5,
+.c-img2 h5,
+.c-img3 h5,
+.c-img4 h5,
+.c-img5 h5,
+.c-img6 h5,
+.c-img7 h5,
+.c-img8 h5,
+.c-img9 h5,
+.c-img10 h5,
+.c-img11 h5 {
+  background-color: rgba(0, 0, 0, 0.301);
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+  transition: 0.5s;
+}
+.c-img1 {
+  background-image: url("img/_content_dam_bmw_marketBMW_M_common_topics_magazine-article-pool_2021_wallpaper-update_bmw-m3-competition-mi-01\ \(1\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 227px;
+  background-color: rgb(49, 49, 49) !important;
+  transition: 1s;
+}
+.c-img2 {
+  background-image: url("img/_content_dam_bmw_marketBMW_M_common_topics_magazine-article-pool_2021_wallpaper-update_bmw-m3-safety-car-mi-03.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 227px;
+  background-color: rgb(49, 49, 49) !important;
+  transition: 1s;
+}
+.c-img3 {
+  background-image: url("img/_content_dam_bmw_marketBMW_M_common_topics_magazine-article-pool_2021_wallpaper-update_bmw-m4-mi-02.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 227px;
+  background-color: rgb(49, 49, 49) !important;
+  transition: 1s;
+}
+.c-img4 {
+  background-image: url("img/_content_dam_bmw_marketBMW_M_common_topics_magazine-article-pool_2021_wallpaper-update_bmw-m5-cs-mi-02.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 227px;
+  background-color: rgb(49, 49, 49) !important;
+  transition: 1s;
+}
+.c-img5 {
+  background-image: url("img/_content_dam_bmw_marketBMW_M_common_topics_magazine-article-pool_2021_wallpaper-update_bmw-m5-cs-mi-04.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 227px;
+  background-color: rgb(49, 49, 49) !important;
+  transition: 1s;
+}
+.c-img6 {
+  background-image: url("img/_content_dam_bmw_marketBMW_M_common_topics_magazine-article-pool_2021_wallpaper-update_bmw-m5-cs-mi-05.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 227px;
+  background-color: rgb(49, 49, 49) !important;
+  transition: 1s;
+}
+.c-img7 {
+  background-image: url("img/_content_dam_bmw_marketBMW_M_common_topics_magazine-article-pool_2021_wp-update_bmw-x5-m-mi-03.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 227px;
+  background-color: rgb(49, 49, 49) !important;
+  transition: 1s;
+}
+.c-img8 {
+  background-image: url("img/_content_dam_bmw_marketBMW_M_common_topics_magazine-article-pool_2021_wp-update_bmw-x7-m50i-mi-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 227px;
+  background-color: rgb(49, 49, 49) !important;
+  transition: 1s;
+}
+.c-img9 {
+  background-image: url("img/_content_dam_bmw_marketBMW_M_common_topics_magazine-article-pool_2022_wallpaper-update_bmw-m8-competition-gran-coupe-mi-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 227px;
+  background-color: rgb(49, 49, 49) !important;
+  transition: 1s;
+}
+.c-img10 {
+  background-image: url("img/malusi-msomi-Xp__MGsQga8-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 227px;
+  background-color: rgb(49, 49, 49) !important;
+  transition: 1s;
+}
+.c-img11 {
+  background-image: url("img/mateo-zvTaHJJnIRY-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 227px;
+  background-color: rgb(49, 49, 49) !important;
+  transition: 1s;
+}

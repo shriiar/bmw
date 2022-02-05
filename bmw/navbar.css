@@ -1,0 +1,62 @@
+nav{
+  position: relative;
+}
+.middle-div {
+  display: flex;
+  align-items: center;
+}
+.model {
+  border-radius: 8px;
+  transition: 0.4s ease;
+  padding: 5px;
+  color: whitesmoke;
+}
+.model:hover {
+  background-color: rgba(212, 212, 212, 0.096);
+}
+.menu {
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.4s;
+  border:none;
+}
+.menu button {
+  border-radius: 10px;
+  border: none;
+  transition: 0.4s;
+  background-color: rgba(212, 212, 212, 0.096);
+}
+.menu button:hover {
+  background-color: rgba(24, 24, 24, 0.185);
+}
+
+.cars-bg{
+  background-color: black !important;
+}
+.nav-txt-bg {
+  color: whitesmoke !important;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 10px;
+  transition: 0.4s;
+  margin: 6px 0px;
+  padding-left: 10px !important;
+  border-radius: 8px;
+}
+
+.nav-txt-bg:hover {
+  background-color: rgba(175, 175, 175, 0.096) !important;
+}
+.x-s-drop{
+  transition: 0.2s;
+}
+.x-s-drop:hover{
+  background-color: rgba(212, 212, 212, 0.096) !important;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 900px) {
+  .middle-div {
+    display: none;
+  }
+}
